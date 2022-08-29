@@ -4,9 +4,33 @@ h1 {
 }
 
 body {
-    background-image: url("chair.jpg")
+    background-position: center center;
 }
 
-.name {
+.extendfull, .extendleft
+{
+	padding-left: 3000px;
+	margin-left: -3000px;
+}
 
+.extendfull, .extendright
+{
+	padding-right: 3000px;
+	margin-right: -3000px;
+}
+
+.blueback {
+    align: center;
+    color: white;
+    background-color: blue;
+    margins: 0 0;
+    width: auto;
+}
+
+.redback {
+    align: center;
+    color: white;
+    background-color: red;
+    margins: 0 0;
+    width: auto;
 }
